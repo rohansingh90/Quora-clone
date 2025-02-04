@@ -1,30 +1,3 @@
-// import React, { useState } from "react";
-// import LeftSide from "./LeftSide";
-// import RightSide from "./RightSide";
-
-// const Home = ({ search }) => {
-//   const [menu, setmenu] = useState("");
-
-//   return (
-//     <div className="flex flex-col md:flex-row bg-zinc-100 min-h-screen">
-//       {/* Left Side */}
-//       <div className="w-full md:w-[20%] p-4 md:mt-14 border-b md:border-b-0 md:border-r border-gray-200">
-//         <LeftSide setmenu={setmenu} />
-//       </div>
-
-//       {/* Right Side */}
-//       <div className="w-full md:w-[45%] p-4 md:mt-14">
-//         <RightSide search={search} menu={menu} />
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Home;
-
-
-
-
 
 import React, { useState } from "react";
 import LeftSide from "./LeftSide";
